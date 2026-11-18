@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@co.com",
+      "password": "admin123",
+      "name": "Ganesh sujith",
+      "role": "admin",
+      "employeeId": 1
+    },
+    {
+      "id": 2,
+      "email": "manager@co.com",
+      "password": "manager123",
+      "name": "Mark Manager",
+      "role": "manager",
+      "employeeId": 2
+    },
+    {
+      "id": 3,
+      "email": "emp@co.com",
+      "password": "emp123",
+      "name": "Eve Employee",
+      "role": "employee",
+      "employeeId": 3
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Operations"
+    },
+    {
+      "id": 2,
+      "name": "Support"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "ganesh",
+      "email": "admin@co.com",
+      "departmentId": 1,
+      "designation": "Admin",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Manikandan",
+      "email": "manager@co.com",
+      "departmentId": 1,
+      "designation": "Manager",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Naveen",
+      "email": "emp@co.com",
+      "departmentId": 2,
+      "designation": "Agent",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Vijay",
+      "email": "sam@co.com",
+      "departmentId": 2,
+      "designation": "Agent",
+      "status": "active"
+    }
+  ],
+  "shifts": [
+    {
+      "id": 1,
+      "name": "Morning",
+      "start": "06:00",
+      "end": "14:00",
+      "breakMins": 30
+    },
+    {
+      "id": 2,
+      "name": "Evening",
+      "start": "14:00",
+      "end": "22:00",
+      "breakMins": 30
+    },
+    {
+      "id": 3,
+      "name": "Night",
+      "start": "22:00",
+      "end": "06:00",
+      "breakMins": 45
+    }
+  ],
+  "assignments": [],
+  "rotationRules": [],
+  "notifications": [],
+  "activityLogs": [
+    {
+      "action": "Updated employees \"Naveen\"",
+      "user": "Alice Admin",
+      "at": "2026-11-17T04:50:22.167Z",
+      "id": 1
+    },
+    {
+      "action": "Updated employees \"Manikandan\"",
+      "user": "Alice Admin",
+      "at": "2026-11-17T04:50:31.676Z",
+      "id": 2
+    },
+    {
+      "action": "Updated employees \"Vijay\"",
+      "user": "Alice Admin",
+      "at": "2026-11-17T04:50:39.999Z",
+      "id": 3
+    },
+    {
+      "action": "Updated employees \"ganesh\"",
+      "user": "Akash Sam",
+      "at": "2026-11-18T17:16:06.505Z",
+      "id": 4
+    }
+  ]
+}

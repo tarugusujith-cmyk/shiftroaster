@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background:
+    radial-gradient(at 0% 0%, #e0e7ff 0, transparent 45%),
+    radial-gradient(at 100% 10%, #fce7f3 0, transparent 40%), #f8fafc;
+  background-attachment: fixed;
+  font-family: Inter, system-ui, sans-serif;
+}
+.inp {
+  @apply border border-slate-200 rounded-xl px-3 py-1.5 w-full text-sm bg-white/90 focus:outline-none focus:ring-2 focus:ring-indigo-300;
+}
+.btn {
+  @apply bg-gradient-to-r from-indigo-600 to-fuchsia-500 text-white rounded-xl px-4 py-1.5 text-sm font-medium shadow-md shadow-indigo-200 hover:shadow-lg hover:-translate-y-0.5 transition;
+}
+.btn2 {
+  @apply border border-slate-200 bg-white/80 rounded-xl px-3 py-1.5 text-sm hover:bg-white hover:shadow transition;
+}
+.card {
+  @apply bg-white/80 backdrop-blur rounded-2xl shadow-lg shadow-indigo-100/60 border border-white p-4 transition hover:shadow-xl;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+main > * {
+  animation: rise 0.4s ease both;
+}
